@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hotel-cards-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 15px;
+}
+
+.hotel-card {
+    flex: 0 0 20%; /* 20% width for 5 cards in a row */
+    max-width: 20%;
+    min-width: 200px; /* Minimum width for smaller screens */
+    margin-right: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.hotel-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.hotel-card .card-body {
+    text-align: center;
+}
