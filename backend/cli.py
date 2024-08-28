@@ -1,5 +1,5 @@
 class hotel:
-    def __init__(self, name, price,location,host,avaiable):
+    def __init__(self, name, price,location,host,available):
         """
         Initializes a new instance of the `hotel` class.
 
