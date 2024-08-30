@@ -6,3 +6,4 @@ CREATE TABLE `users` (
     `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
     PRIMARY KEY (`id`)
 )
+
